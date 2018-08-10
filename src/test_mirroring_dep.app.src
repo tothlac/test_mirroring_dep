@@ -1,0 +1,12 @@
+{application, test_mirroring_dep,
+             [{vsn, git},
+              {description,""},
+              {modules,[]},
+              {registered,[]},
+              {applications,[compiler,
+                             kernel,
+                             stdlib,
+                             sasl
+                            ]},
+              {env,[]}
+             ]}.
